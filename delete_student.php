@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if (isset($_POST['id'])) {
 	$id = $_POST['id'];
 
@@ -6,5 +6,5 @@ if (isset($_POST['id'])) {
 	$sql = 'delete from student where id = '.$id;
 	execute($sql);
 
-	echo 'Xoá sinh viên thành công';
+	echo 'Xoá sinh viên thành côngdddddd';
 }
